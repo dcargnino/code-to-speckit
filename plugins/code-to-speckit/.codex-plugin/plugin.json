@@ -1,0 +1,40 @@
+{
+  "name": "code-to-speckit",
+  "version": "0.1.0",
+  "description": "Reverse-engineer existing codebases into evidence-backed Spec Kit documentation with Obsidian-friendly Markdown.",
+  "author": {
+    "name": "Dario",
+    "email": "dario@example.com",
+    "url": "https://github.com/dario"
+  },
+  "homepage": "https://github.com/dario/code-to-speckit",
+  "repository": "https://github.com/dario/code-to-speckit",
+  "license": "MIT",
+  "keywords": [
+    "spec-kit",
+    "brownfield",
+    "documentation",
+    "obsidian"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Code-to-SpecKit",
+    "shortDescription": "Brownfield Spec Kit documentation from real code evidence.",
+    "longDescription": "Analyzes an existing codebase and produces evidence-backed, Obsidian-friendly Spec Kit documentation without inventing requirements.",
+    "developerName": "Dario",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/dario/code-to-speckit",
+    "privacyPolicyURL": "https://github.com/dario/code-to-speckit/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/dario/code-to-speckit/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Analyze this repo in brownfield mode and generate navigation hints.",
+      "Create a feature inventory with confidence and evidence.",
+      "Generate scope, trace, evidence, and spec docs for Authentication."
+    ],
+    "brandColor": "#1F6F5F"
+  }
+}

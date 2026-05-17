@@ -1,0 +1,20 @@
+{
+  "name": "local-repo",
+  "interface": {
+    "displayName": "Local Repo Plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-to-speckit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-to-speckit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
