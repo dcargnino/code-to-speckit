@@ -9,9 +9,28 @@
 
 # Code-to-SpecKit
 
-Code-to-SpecKit is a repo-local Codex plugin for turning existing codebases into evidence-backed Spec Kit documentation.
+Code-to-SpecKit is a repo-local Codex plugin that reverse-engineers existing codebases into evidence-backed Spec Kit documentation with Obsidian-friendly Markdown output.
+
+![plugin](https://img.shields.io/badge/plugin-Code--to--SpecKit-2f6f60)
+![version](https://img.shields.io/badge/version-v0.1.0-c97b63)
+![repo-local](https://img.shields.io/badge/install-repo--local-6b7280)
+![codex](https://img.shields.io/badge/Codex-compatible-0f766e)
+![spec-kit](https://img.shields.io/badge/Spec%20Kit-brownfield-8b5cf6)
+![obsidian](https://img.shields.io/badge/Obsidian-friendly-7c3aed)
+![markdown](https://img.shields.io/badge/output-Markdown-2563eb)
 
 It is built for brownfield work: understanding what a repository actually does today, scoping one feature at a time, tracing behavior through real code and tests, and only then generating documentation.
+
+## What This Plugin Does
+
+Code-to-SpecKit helps you document an already-existing codebase without inventing behavior that is not supported by the repository.
+
+- Scans the repository and builds navigation hints for brownfield analysis
+- Maps implemented features before deep-diving into any single area
+- Traces one feature through code, tests, routes, schemas, and configuration
+- Converts findings into Spec Kit documentation backed by explicit evidence
+- Produces Markdown that remains readable in plain text and works well in Obsidian
+- Flags uncertainty as open questions instead of promoting guesses into requirements
 
 ## What this repository contains
 
