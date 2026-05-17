@@ -1,3 +1,12 @@
+```text
+  ______          __        ______            _____                 __   _ __
+ / ____/___  ____/ /__     /_  __/___       / ___/____  ___  _____/ /__(_) /_
+/ /   / __ \/ __  / _ \     / / / __ \      \__ \/ __ \/ _ \/ ___/ //_/ / __/
+/ /___/ /_/ / /_/ /  __/    / / / /_/ /     ___/ / /_/ /  __/ /__/ ,< / / /_
+\____/\____/\__,_/\___/    /_/  \____/     /____/ .___/\___/\___/_/|_/_/\__/
+                                               /_/
+```
+
 # Code-to-SpecKit
 
 Code-to-SpecKit is a repo-local Codex plugin for turning existing codebases into evidence-backed Spec Kit documentation.
